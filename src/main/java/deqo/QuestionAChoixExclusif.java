@@ -1,25 +1,31 @@
 package deqo;
 
 /**
- * Classe représentant une question à choix exclusive
+ * Classe représentant une question à choix exclusive.
  */
 public class QuestionAChoixExclusif implements QuestionAChoix {
-
+    /**
+     * enonce est la question.
+     */
     private String enonce;
+    /**
+     * cette variable est le numero de la bonne Reponse
+     */
     private int indiceBonneReponse;
 
     /**
-     * Une question à choix excusive est complètement caractérisé par son énoncé et l'indice de sa bonne réponse
-     * @param enonce l'énoncé de la question
+     * Une question à choix excusive est complètement caractérisé
+     * par son énoncé et l'indice de sa bonne réponse.
+     * @param question l'énoncé de la question
      * @param indiceBonneReponse l'indice de la bonne réponse
      */
-    public QuestionAChoixExclusif(String enonce, int indiceBonneReponse) {
-        this.enonce = enonce;
+    public QuestionAChoixExclusif(final String question, final int indiceBonneReponse) {
+        this.enonce = question;
         this.indiceBonneReponse = indiceBonneReponse;
     }
 
     /**
-     * Récupère l'énoncé de la question
+     * Récupère l'énoncé de la question.
      * @return l'énoncé de la question
      */
     public String getEnonce() {

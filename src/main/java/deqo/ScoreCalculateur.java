@@ -8,7 +8,7 @@ import java.util.List;
 public class ScoreCalculateur {
 
     /**
-     * Calcule le score obtenu par un étudiant en répondant à une question à choix
+     * Calcule le score obtenu par un étudiant en répondant à une question à choix.
      *
      * @return le score compris entre 0 et 100
      */

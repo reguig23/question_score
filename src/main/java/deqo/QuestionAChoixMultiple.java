@@ -3,7 +3,7 @@ package deqo;
 import java.util.List;
 
 /**
- * Classe répresentant une question à choix multiple
+ * Classe répresentant une question à choix multiple.
  */
 public class QuestionAChoixMultiple implements QuestionAChoix {
 
@@ -11,7 +11,7 @@ public class QuestionAChoixMultiple implements QuestionAChoix {
     private List<Integer> indicesBonnesReponses;
 
     /**
-     * Une question à choix multiple est complètement caractérisé par son énoncé et la liste des indices qui forment
+     * Une question à choix multiple est complètement caractérisé par son énoncé et la liste des indices qui forment.
      * la bonne réponse
      * @param enonce l'énoncé de la question
      * @param indicesBonnesReponses la liste des indices formant la bonne réponse.
@@ -22,7 +22,7 @@ public class QuestionAChoixMultiple implements QuestionAChoix {
     }
 
     /**
-     * Récupère l'énoncé de la question
+     * Récupère l'énoncé de la question.
      * @return l'énoncé de la question
      */
     public String getEnonce() {
