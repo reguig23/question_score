@@ -37,7 +37,7 @@ public class ScoreCalculateurTest {
         reponse.add(2);
         reponse.add(3);
         float score =Calculator.calculeScore(reponse,QCM);
-        double result= 2.0*100.0/3.0;
+        float result= 2f*100f/3f;
         assertEquals(null,score,result,0.01);
 
     }
